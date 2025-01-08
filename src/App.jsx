@@ -1,23 +1,16 @@
 import { useState } from 'react'
 
 import './App.css'
+import Youtube from './project/youtube';
 
 function App() {
-  
-
   return (
     <>
-   
-    <h1 className="text-3xl text-blue-700 font-bold leading-10 underline bg-[red]">
-      Hello world!
-    </h1>
+    <Youtube/>
 
-  
-
-      
 
     </>
-  )
+  );
 }
 
-export default App
+export default App;
