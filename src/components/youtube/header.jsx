@@ -11,7 +11,7 @@ function Header (){
 
     return(
         <>
-          <header className='flex bg-black h-[78px] w-full justify-between items-center fixed top-0 left-0 right-0'>
+          <header className='flex bg-black h-[78px] w-full justify-between items-center fixed top-0 left-0 right-0 z-50' >
               <div className='flex items-center w-[220px] pl-[30px] mr-[40px] gap-4 min-w-[180px]'>
                     <div className='    hover:border hover:rounded-full hover:border-slate-800 hover:p-1 hover:bg-slate-900'>
                         <img src={menu} className='h-6 w-6'/>
@@ -40,7 +40,7 @@ function Header (){
                    
                 </div>
 
-                <div className='flex items-center justify-evenly gap-2  bg-[red] w-[200px] flex-shrink-0 ml-2 mr-1'>
+                <div className='flex items-center justify-evenly gap-2  w-[200px] flex-shrink-0 ml-2 mr-5'>
 
 
                     <div className='flex  items-center p-2 border border-slate-900 bg-[#ffffff14] hover:bg-slate-800  duration-150 rounded-[25px] gap-1 font-medium'>
@@ -55,7 +55,7 @@ function Header (){
                         </div>
                     </div>
 
-                    <div className='rounded-full bg-purple-700 text-white text-[10px] p-1 px-3  text-center'>
+                    <div className='rounded-full bg-purple-700 text-white text-[10px] p-1 px-[10px]  text-center'>
                         <p className='text-xl'>A</p>
                     </div>
 
