@@ -67,7 +67,7 @@ function Videos () {
 
     return(
         <>
-         <section className="grid grid-cols-3 mt-[78px] gap-x-5  gap-y-[80px] p-5  ml-[270px] bg-black"> 
+         <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 mt-[78px] gap-x-5  gap-y-[80px] p-5 md:ml-[100px] xl:ml-[270px] bg-black"> 
             {Videodata.map((elements, index)=>
                     <div key={index} className="  h-[325px] cursor-pointer rounded-[25px]">
                         <div className='rounded-[25px] relative'>

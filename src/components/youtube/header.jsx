@@ -28,19 +28,19 @@ function Header (){
               
 
              
-                <div className='flex flex-grow  flex-shrink  min-w-16 max-w-2xl  mr-5' >
-                    <input type='text' placeholder='Search' className='ml-[30px]  flex-grow min-w-0 flex-shrink bg-transparent border border-slate-700 border-r-0 rounded-l-[25px] p-[8px] pl-[15px] text-lg text-[red]'/>
-                    <div className='w-[70px] flex-shrink-0 min-w-16 flex items-center justify-center bg-slate-900 border border-slate-700 rounded-r-[25px] '>
+                <div className='flex flex-grow  flex-shrink  min-w-16 max-w-2xl ml-3 sm:mr-5' >
+                    <input type='text' placeholder='Search' className='ml-[30px] hidden sm:block flex-grow min-w-0 flex-shrink bg-transparent border border-slate-700 border-r-0 rounded-l-[25px] p-[8px] pl-[15px] text-lg text-[red]'/>
+                    <div className='sm:w-[70px] w-[30px] flex-shrink-0 sm:min-w-16 flex items-center justify-center sm:bg-slate-900 sm:border sm:border-slate-700 sm:rounded-r-[25px] '>
                         <img src={search} className='h-[25px]'/>
                     </div>
-                    <div className='bg-slate-900 rounded-full ml-[20px] border border-slate-800 p-2'>
-                                <img src={voicelogo} className='h-[25px]'/>
+                    <div className='sm:bg-slate-900 sm:rounded-full sm:ml-[20px] ml-1 flex-shrink-0 sm:mr-4 mr-1 sm:border sm:border-slate-800 p-2'>
+                                <img src={voicelogo} className='sm:h-[25px] h-[22px]'/>
                      </div>
 
                    
                 </div>
 
-                <div className='flex items-center justify-evenly gap-2  w-[200px] flex-shrink-0 ml-2 mr-5'>
+                <div className='flex items-center justify-evenly gap-2  w-[200px] flex-shrink-0 sm:ml-2 sm:mr-5 mr-3'>
 
 
                     <div className='flex  items-center p-2 border border-slate-900 bg-[#ffffff14] hover:bg-slate-800  duration-150 rounded-[25px] gap-1 font-medium'>
