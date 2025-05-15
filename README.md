@@ -1,14 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-
-
 YouTube Mock-Up Project
 📖 Overview
 This project is a YouTube landing page mock-up built using React. It replicates key features of YouTube's user interface, such as a responsive video grid, sidebar navigation, and dynamic styling. The project is designed to showcase React development skills, responsive design techniques, and modern CSS frameworks (e.g., TailwindCSS).
